@@ -441,9 +441,9 @@ def plt_gradients(x_train, y_train, f_compute_cost, f_compute_gradient):
         tmp_w = w_array[i]
         cost[i] = f_compute_cost(x_train, y_train, tmp_w, fix_b)
     ax[0].plot(w_array, cost, linewidth=1)
-    ax[0].set_title("Cost vs m, with gradient; b set to -1")
+    ax[0].set_title("Cost vs w, with gradient; b set to -1")
     ax[0].set_ylabel('Cost')
-    ax[0].set_xlabel('m')
+    ax[0].set_xlabel('w')
 
     # plot lines for fixed b=-1
     for tmp_w in [-1, 1, 3]:
