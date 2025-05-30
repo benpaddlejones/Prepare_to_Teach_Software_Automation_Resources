@@ -1,5 +1,7 @@
 # Prepare to Teach 'Software Automation' in Software Engineering
 
+#comment
+
 A facilitated online workshop series to support teacher confidence in the delivery of Software Automation. Teachers will commit to an eight-week series of one-hour online workshops, each with 1 hour of preparation work each week.
 
 At the end of the workshop series, teachers will
